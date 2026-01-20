@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Variables and Operators</title>
+    <script src="main.js"></script>
+    <style>
+        body {
+            background-color: rgb(76, 100, 82);
+            text-align: center;
+            color: #a6bea8;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 4px 4px 9px rgba(68,113,68,0.6);
+        }
+    </style>
+</head>
+<body>
+    <h1>Basic Calculator</h1>
+    <p>Enter the numbers and click the corresponding buttons if you want to add, subtract, multiply, or divide.</p>
+    <form>
+        <input type="number" id="num1" placeholder="enter the first number"><br>
+        <input type="number" id="num2" placeholder="enter the second number"><br>
+        <input type="button" onclick="add()" value="Add" style="background-color: rgb(166, 190, 168); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 21px;">
+        <input type="button" onclick="subtract()" value="Subtract" style="background-color: #a6bea8; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 21px;">
+        <input type="button" onclick="multiply()" value="Multiply" style="background-color: rgb(166, 190, 168); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 21px;">
+        <input type="button" onclick="division()" value="Divide" style="background-color: rgb(166, 190, 168); font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 21px;">
+    </form>
+    <div id="output" style="color: green; font-size: 30px;"></div>
+    <script src="main.js"></script>
+</body>
+</html>
